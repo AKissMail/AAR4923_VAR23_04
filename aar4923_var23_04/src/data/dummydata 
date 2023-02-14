@@ -1,0 +1,48 @@
+{
+  "title": "My Awesome Timeline",
+  "date": "2023-02-14",
+  "entries": [
+    {
+      "title": "Entry 1",
+      "date": "2022-01-01",
+      "description": "A description for entry 1",
+      "media": [
+        {
+          "title": "Photo 1",
+          "date": "2022-01-01",
+          "description": "A beautiful landscape",
+          "url": "https://example.com/photo1.jpg",
+          "type": "photo"
+        },
+        {
+          "title": "Video 1",
+          "date": "2022-02-14",
+          "description": "A funny cat video",
+          "url": "https://example.com/video1.mp4",
+          "type": "video"
+        }
+      ]
+    },
+    {
+      "title": "Entry 2",
+      "date": "2022-03-20",
+      "description": "A description for entry 2",
+      "media": [
+        {
+          "title": "Photo 2",
+          "date": "2022-03-20",
+          "description": "A beautiful sunset",
+          "url": "https://example.com/photo2.jpg",
+          "type": "photo"
+        },
+        {
+          "title": "Audio 1",
+          "date": "2022-04-01",
+          "description": "A relaxing music",
+          "url": "https://example.com/audio1.mp3",
+          "type": "audio"
+        }
+      ]
+    }
+  ]
+}
