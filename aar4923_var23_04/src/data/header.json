@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "name": "foo",
+    "link": "https://www.ntnu.no"
+  },
+  {
+    "id": 2,
+    "name": "foo2",
+    "link": "https://www.ntnu.no"
+  }
+]
+
