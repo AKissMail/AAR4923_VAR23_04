@@ -19,8 +19,8 @@ export class Footer extends Component {
                         }}>
                             {Links.map((item) => (
                                 <ListItem key={item.id}  disablePadding>
-                                    <ListItemButton  sx={{textAlign: 'center'}} href={item.link}>
-                                        <ListItemText primary={item.name} />
+                                    <ListItemButton className={'footerBtn'}   sx={{textAlign: 'center'}} href={item.link}>
+                                        <ListItemText className={'footerBtnText'} primary={item.name} />
                                     </ListItemButton>
                                 </ListItem>
                             ))}

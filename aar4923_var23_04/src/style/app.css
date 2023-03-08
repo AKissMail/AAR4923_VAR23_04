@@ -1,0 +1,162 @@
+/*Root setup*/
+:root{
+    /*color*/
+    --ColorRed : #E62542;
+    --ColorBlue: #4854A0;
+    --ColorGreen: #538354;
+    --ColorLightBG: #F9F9F9;
+    --ColorDarkBG: #23313B;
+    /*font*/
+    --fontHeading : 'Josefin Sans', sans-serif;
+    --fontParagraf: 'Labrada', serif;
+    /*size*/
+}
+/* Font import */
+
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(font/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMhhLzTs.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(font/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XbMZhLw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Labrada';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(font/ieVh2Y9HLWefIpOyF1Vi3ZqDss1Px9VTSjMxSvZkeg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Labrada';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(font/ieVh2Y9HLWefIpOyF1Vi3ZqDss1Px9VTSjM_SvY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Labrada';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(font/ieVv2Y9HLWefIpOyPVxQIkLq2VfhwMCbCOt7evp8fh17.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Labrada';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url(font/ieVv2Y9HLWefIpOyPVxQIkLq2VfhwMCbCOt7evR8fg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Labrada';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(font/ieVh2Y9HLWefIpOyF1Vi3ZqDss1Px9VTSzMxSvZkeg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+    font-family: 'Labrada';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(font/ieVh2Y9HLWefIpOyF1Vi3ZqDss1Px9VTSzM_SvY.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1 {
+    font-family: 'Josefin Sans', serif;
+    font-size: 2rem;
+    color: var(--ColorDarkBG);
+}
+h6,.MuiTypography-h6 {
+    font-family: 'Josefin Sans', serif !important;
+    color: var(--ColorDarkBG);
+}
+.MuiBox-root > h6 {
+    text-align: center!important;
+    padding-left: 50px ;
+}
+.MuiButton-textPrimary {
+    font-family: 'Josefin Sans', serif !important;
+    text-decoration: underline;
+
+}
+p {
+    font-family: 'Labrada', serif;
+    font-size: 1.5rem;
+    color: var(--ColorDarkBG);
+}
+a {
+    color: var(--ColorRed);
+}
+
+i {
+    color: var(--ColorGreen);
+}
+.contentWrapper {
+    margin: auto;
+}
+
+.col90 {
+    width: 90%;
+}
+.col60 {
+    width: 60%;
+}
+.col30 {
+    width: 30%;
+}
+
+body{
+    background: var(--ColorLightBG) !important;
+}
+
+img, iframe{
+    width: 100%;
+
+}
+iframe{
+    height: 500px;
+}
+
+
+
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background-color: #F9F9F9!important;
+    color: var(--ColorDarkBG)!important;
+}
+
+/*setup for the footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--ColorLightBG);
+    color: var(--ColorDarkBG);
+    border-top: 1px solid #23313B2E;
+
+}
+.footerBtnText {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Labrada', serif !important;
+    color: var(--ColorDarkBG);
+}
+html {
+    scroll-behavior: smooth;
+}

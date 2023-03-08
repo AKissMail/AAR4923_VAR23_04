@@ -1,15 +1,28 @@
-
 import {Component} from "react";
+import content from "./../data/content.json";
 
-const content = '<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">\n' +
-    '</iframe>';
+function parsMyContent(content) {
+    if (content.tag === "figure"){
+        return "<figure id='"+content.id+"'>" + "<img src='"+ content.paramSrc+ "'>" +(content.caption ==="" ? "": "<figcaption>"+ content.caption +"</figcaption>") + "</figure>" ;
+    }
+    else if (content.tag === "iframe"){
+        return "<iframe frameBorder='0' id="+content.id+" src='"+content.paramSrc+"' title='"+content.parmTitle+"' allow='"+content.paramAllow+"'"+" allowfullscreen></iframe>";
+    }
+    else {
+        return "<"+content.tag+" id='"+content.id+"'>" +content.content+"</"+content.tag+">"
+    }
+}
 
 
 export class IFrame extends Component {
     render() {
         return (
             <>
-            <div dangerouslySetInnerHTML={{__html: content}}/>
+                {content.map((item) => (
+                    <div className={'contentWrapper'+ ' ' + item.with}>
+                        <div dangerouslySetInnerHTML={{__html: parsMyContent(item)}}/>
+                    </div>
+                ))}
             </>
         );
     }
