@@ -13,10 +13,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import config from  './../data/header.json'
 
-const drawerWidth = 240;
-const navItems = [{name: 'foo', link: 'https://www.ntnu.de'}, {name: 'foo2', link: 'https://www.ntnu.de'}];
-const title = 'A fancy name';
+const drawerWidth = config.drawerWidth;
+const navItems = config.links;
+const title = config.title;
 
 function DrawerAppBar(props) {
     const { window } = props;
@@ -27,14 +28,14 @@ function DrawerAppBar(props) {
     };
 
     const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'left' }}>
-            <Typography display="flex" variant="h6" sx={{ my: 2 }}>
+        <Box onClick={handleDrawerToggle} sx={{ }}>
+            <Typography display="flex" variant="h6" sx={{ textAlign: 'center' , my: 2}}>
                 {title}
             </Typography>
             <Divider />
             <List>
                 {navItems.map((item) => (
-                    <ListItem key={item} disablePadding>
+                    <ListItem key={item.id} disablePadding>
                         <ListItemButton sx={{ textAlign: 'center' }} href={item.link}>
                             <ListItemText primary={item.name} />
                         </ListItemButton>
@@ -69,7 +70,7 @@ function DrawerAppBar(props) {
                     </Typography>
                     <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
                         {navItems.map((item) => (
-                            <Button key={item} sx={{ color: '#fff' }} href ={item.link}>
+                            <Button key={item.id} sx={{ color: '#000' }} href ={item.link}>
                                 {item.name}
                             </Button>
                         ))}

@@ -1,15 +1,16 @@
 
 import './style/app.css';
-import Header from "./component/header";
-import Footer from "./component/footer";
-import Content from "./component/content";
+import Header from "./component/Header";
+import {Footer} from "./component/Footer";
+import {IFrame} from "./component/HTML";
 
 function App() {
   return (
     <div className="App">
       <Header />
-        <Content />
+        <IFrame />
       <Footer />
+
     </div>
   );
 }

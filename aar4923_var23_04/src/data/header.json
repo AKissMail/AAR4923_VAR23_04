@@ -1,0 +1,17 @@
+{
+  "links": [
+    {
+      "id": 1,
+      "name": "foo",
+      "link": "#1"
+    },
+    {
+      "id": 2,
+      "name": "foo2",
+      "link": "#4"
+    }
+  ],
+  "drawerWidth": 240,
+  "title": "A fancy name"
+  }
+
