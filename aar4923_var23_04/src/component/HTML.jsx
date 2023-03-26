@@ -1,23 +1,24 @@
 import {Component} from "react";
 import content from "./../data/content.json";
+import ReactCompareImage from "react-compare-image";
 
-function parsMyContent(content) {
+function parsMyContent(item) {
     let r;
-    if (content.tag === "figure"){
-        r =  "<figure id='"+content.id+"'>" + "<img alt ='"+content.alt +"' + src='"+ content.paramSrc+ "'>" +(content.caption ==="" ? "": "<figcaption>"+ content.caption +"</figcaption>") + "</figure>" ;
+    if (item.tag === "figure"){
+        r =  "<figure id='"+item.id+"'>" + "<img alt ='"+item.alt +"' + src='"+ item.paramSrc+ "'>" +(item.caption ==="" ? "": "<figcaption>"+ item.caption +"</figcaption>") + "</figure>" ;
     }
-    else if (content.tag === "iframe"){
-        r =  "<iframe frameBorder='0' id="+content.id+" src='"+content.paramSrc+"' title='"+content.parmTitle+"' allow='"+content.paramAllow+"'"+" allowfullscreen></iframe>";
+    else if (item.tag === "iframe"){
+        r =  "<iframe frameBorder='0' id="+item.id+" src='"+item.paramSrc+"' title='"+item.parmTitle+"' allow='"+item.paramAllow+"'"+" allowfullscreen></iframe>";
     }
     else {
-        r = "<"+content.tag+" id='"+content.id+"'>" +content.content+"</"+content.tag+">";
+        r = "<"+item.tag+" id='"+item.id+"'>" +item.content+"</"+item.tag+">";
 
     }
     return <div dangerouslySetInnerHTML={{__html: r}}/>
 }
 function parsMyComponent(item){
-    if(item.componentType === "a") {
-        return "yahoo"
+    if(item.componentType === "ReactCompareImage") {
+        return <ReactCompareImage leftImage={item.leftImage} rightImage={item.rightImage} leftImageAlt={item.leftImageAlt} rightImageAlt={item.rightImageAlt} />
     }
 
     else {
