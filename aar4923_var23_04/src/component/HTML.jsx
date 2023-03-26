@@ -2,25 +2,36 @@ import {Component} from "react";
 import content from "./../data/content.json";
 
 function parsMyContent(content) {
+    let r;
     if (content.tag === "figure"){
-        return "<figure id='"+content.id+"'>" + "<img src='"+ content.paramSrc+ "'>" +(content.caption ==="" ? "": "<figcaption>"+ content.caption +"</figcaption>") + "</figure>" ;
+        r =  "<figure id='"+content.id+"'>" + "<img alt ='"+content.alt +"' + src='"+ content.paramSrc+ "'>" +(content.caption ==="" ? "": "<figcaption>"+ content.caption +"</figcaption>") + "</figure>" ;
     }
     else if (content.tag === "iframe"){
-        return "<iframe frameBorder='0' id="+content.id+" src='"+content.paramSrc+"' title='"+content.parmTitle+"' allow='"+content.paramAllow+"'"+" allowfullscreen></iframe>";
+        r =  "<iframe frameBorder='0' id="+content.id+" src='"+content.paramSrc+"' title='"+content.parmTitle+"' allow='"+content.paramAllow+"'"+" allowfullscreen></iframe>";
     }
     else {
-        return "<"+content.tag+" id='"+content.id+"'>" +content.content+"</"+content.tag+">"
+        r = "<"+content.tag+" id='"+content.id+"'>" +content.content+"</"+content.tag+">";
+
+    }
+    return <div dangerouslySetInnerHTML={{__html: r}}/>
+}
+function parsMyComponent(item){
+    if(item.componentType === "a") {
+        return "yahoo"
+    }
+
+    else {
+        return <div dangerouslySetInnerHTML={{__html: "<b>The component "+ item.componentType + " it is not implemented.</b>"}}/>
     }
 }
 
-
-export class IFrame extends Component {
+export class HTML extends Component {
     render() {
         return (
             <>
                 {content.map((item) => (
-                    <div className={'contentWrapper'+ ' ' + item.with}>
-                        <div dangerouslySetInnerHTML={{__html: parsMyContent(item)}}/>
+                    <div  id={item.id} className={'contentWrapper'+ ' ' + item.with}>
+                        {item.isComponent === true ?  parsMyComponent(item) : parsMyContent(item)}
                     </div>
                 ))}
             </>
