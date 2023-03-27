@@ -148,6 +148,7 @@ footer {
     align-items: center;
     background: var(--ColorLightBG);
     color: var(--ColorDarkBG);
+    margin-top: 30px;
     border-top: 1px solid #23313B2E;
 
 }
@@ -159,4 +160,12 @@ footer {
 }
 html {
     scroll-behavior: smooth;
+}
+
+[id]::before {
+    content: '';
+    display: block;
+    height: 75px;
+    margin-top: -75px;
+    visibility: hidden;
 }
