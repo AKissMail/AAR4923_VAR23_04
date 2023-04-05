@@ -111,7 +111,17 @@ i {
 .contentWrapper {
     margin: auto;
 }
-
+@media screen and (min-width: 400px){
+    .col90 {
+        width: 90%;
+    }
+    .col60 {
+        width: 90%;
+    }
+    .col30 {
+        width: 90%;
+    }
+}
 .col90 {
     width: 90%;
 }
@@ -169,3 +179,24 @@ html {
     margin-top: -75px;
     visibility: hidden;
 }
+
+#imageGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: stretch;
+
+}
+#imageGrid div {
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+#imageGrid img {
+    width: 40px;
+    max-height: 40px;
+    margin: auto;
+   display: block;
+
+             }
