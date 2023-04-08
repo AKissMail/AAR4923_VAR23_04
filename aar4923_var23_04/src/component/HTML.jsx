@@ -1,14 +1,16 @@
 import {Component} from "react";
 import content from "./../data/content.json";
 import ReactCompareImage from "react-compare-image";
+import {OverlayManger} from "./OverlayManger";
+
 
 function parsMyContent(item) {
     let r;
     if (item.tag === "figure"){
-        r =  "<figure id='"+item.id+"'>" + "<img alt ='"+item.alt +"' + src='"+ item.paramSrc+ "'>" +(item.caption ==="" ? "": "<figcaption>"+ item.caption +"</figcaption>") + "</figure>" ;
+        r =  "<figure id='"+item.id+"'> <img alt ='"+item.alt +"' src='"+ item.paramSrc+ "'>" +(item.caption ==="" ? "": "<figcaption>"+ item.caption +"</figcaption>") + "</figure>" ;
     }
     else if (item.tag === "iframe"){
-        r =  "<iframe frameBorder='0' id="+item.id+" src='"+item.paramSrc+"' title='"+item.parmTitle+"' allow='"+item.paramAllow+"'"+" allowfullscreen></iframe>";
+        r =  "<iframe frameBorder='0' id="+item.id+" src='"+item.paramSrc+"' title='"+item.parmTitle+"' allow='"+item.paramAllow+"' allowfullscreen></iframe>";
     }
     else {
         r = "<"+item.tag+" id='"+item.id+"'>" +item.content+"</"+item.tag+">";
@@ -19,6 +21,9 @@ function parsMyContent(item) {
 function parsMyComponent(item){
     if(item.componentType === "ReactCompareImage") {
         return <ReactCompareImage leftImage={item.leftImage} rightImage={item.rightImage} leftImageAlt={item.leftImageAlt} rightImageAlt={item.rightImageAlt} />
+    }
+    if (item.componentType === "Overlay") {
+        return <OverlayManger  content={item} />
     }
 
     else {
@@ -31,7 +36,7 @@ export class HTML extends Component {
         return (
             <>
                 {content.map((item) => (
-                    <div  id={item.id} className={'contentWrapper'+ ' ' + item.with}>
+                    <div  id={item.id} className={'contentWrapper ' + item.with}>
                         {item.isComponent === true ?  parsMyComponent(item) : parsMyContent(item)}
                     </div>
                 ))}

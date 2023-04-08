@@ -6,7 +6,6 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import Toolbar from '@mui/material/Toolbar';
 import Links from "../data/footer.json";
-import "./../style/fooder.css";
 
 export class Footer extends Component {
     render() {

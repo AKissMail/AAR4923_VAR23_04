@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import React from 'react';
 
-import "./../style/Overlay.css";
 
 export function Overlay({isOpen, onClose, children}) {
 
