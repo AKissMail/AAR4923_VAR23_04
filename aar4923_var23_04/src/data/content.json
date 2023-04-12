@@ -2,8 +2,8 @@
     {
         "id": 1,
         "with": "col60",
-        "tag": "h1",
-        "content": "Hello World",
+        "tag": "h2",
+        "content": "Definition",
         "isComponent" : false
     },
     {
@@ -11,20 +11,448 @@
         "isComponent" : false,
         "with": "col60",
         "tag": "p",
-        "content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Sed hendrerit. Morbi ac felis. Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi. Nunc nulla. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Donec venenatis vulputate lorem. Morbi nec metus. Phasellus blandit leo ut odio. Maecenas ullamcorper, dui et placerat feugiat, eros pede varius nisi, condimentum viverra felis nunc et lorem. Sed magna purus, fermentum eu, tincidunt eu, varius ut, felis. In auctor lobortis lacus. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Vestibulum ullamcorper mauris at ligula. Fusce fermentum. Nullam cursus lacinia erat. Praesent blandit laoreet nibh. Fusce convallis metus id felis luctus adipiscing. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Quisque id mi. Ut tincidunt tincidunt erat. Etiam feugiat lorem non metus. Vestibulum dapibus nunc ac augue. Curabitur vestibulum aliquam leo. Praesent egestas neque eu enim. In hac habitasse platea dictumst. Fusce a quam. Etiam ut purus mattis mauris sodales aliquam. Curabitur nisi. Quisque malesuada placerat nisl. Nam ipsum risus, rutrum vitae, vestibulum eu, molestie vel, lacus. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Vestibulum facilisis, purus nec pulvinar iaculis, ligula mi congue nunc, vitae euismod ligula urna in dolor. Mauris sollicitudin fermentum libero. Praesent nonummy mi in odio. Nunc interdum lacus sit amet orci. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Morbi mollis tellus ac sapien. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Fusce vel dui. Sed in libero ut nibh placerat accumsan. Proin faucibus arcu quis ante. In consectetuer turpis ut velit. Nulla sit amet est. Praesent metus tellus, elementum eu, semper a, adipiscing nec, purus. Cras risus ipsum, faucibus ut, ullamcorper id, varius ac, leo. Suspendisse feugiat. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Praesent nec nisl a purus blandit viverra. Praesent ac massa at ligula laoreet iaculis. Nulla neque dolor, sagittis eget, iaculis quis, molestie non, velit. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Fusce pharetra convallis urna. Quisque ut nisi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse non nisl sit amet velit hendrerit rutrum. Ut leo. Ut a nisl id ante tempus hendrerit. Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo. Suspendisse eu ligula. Nulla facilisi. Donec id justo. Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Curabitur suscipit suscipit tellus. Praesent vestibulum dapibus nibh. Etiam iaculis nunc ac metus. Ut id nisl quis enim dignissim sagittis. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Proin magna. Duis vel nibh at velit scelerisque suscipit. Curabitur turpis. Vestibulum suscipit nulla quis orci. Fusce ac felis sit amet ligula pharetra condimentum. Maecenas egestas arcu quis ligula mattis placerat. Duis lobortis massa imperdiet quam. Suspendisse potenti. Pellentesque commodo eros a enim. Vestibulum turpis sem, aliquet eget, lobortis pellentesque, rutrum eu, nisl. Sed libero. Aliquam erat volutpat. Etiam vitae tortor. Morbi vestibulum volutpat enim. Aliquam eu nunc. Nunc sed turpis. Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Nulla porta dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Pellentesque dapibus hendrerit tortor. Praesent egestas tristique nibh. Sed a libero. Cras varius. Donec vitae orci sed dolor rutrum auctor. Fusce egestas elit eget lorem. Suspendisse nisl elit, rhoncus eget, elementum ac, condimentum eget, diam. Nam at tortor in tellus interdum sagittis. Aliquam lobortis. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum eu odio. Vivamus laoreet. Nullam tincidunt adipiscing enim. Phasellus tempus. Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, a accumsan nisi mauris ac eros. Fusce neque. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. Vivamus aliquet elit ac nisl. Fusce fermentum odio nec arcu. Vivamus euismod mauris. In ut quam vitae odio lacinia tincidunt. Praesent ut ligula non mi varius sagittis. Cras sagittis. Praesent ac sem eget est egestas volutpat. Vivamus consectetuer hendrerit lacus. Cras non dolor. Vivamus in erat ut urna cursus vestibulum. Fusce commodo aliquam arcu. Nam commodo suscipit quam. Quisque id odio. Praesent venenatis metus at tortor pulvinar varius.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque ut neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In dui magna, posuere eget, vestibulum et, tempor auctor, justo. In ac felis quis tortor malesuada pretium. Pellentesque auctor neque nec urna. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Aenean viverra rhoncus pede. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut non enim eleifend felis pretium feugiat. Vivamus quis mi. Phasellus a est. Phasellus magna. In hac habitasse platea dictumst. Curabitur at lacus ac velit ornare lobortis. Curabitur a felis in nunc fringilla tristique. Morbi mattis ullamcorper velit. Phasellus gravida semper nisi. Nullam vel sem. Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam. Sed hendrerit. Morbi ac felis."
+        "content": "Unjust transition is the terminology in which sustainable measures are not encompassing the parameters of just social transition. For this project the team was tasked with finding our own definition of what an unjust transition is. These are our thoughts:"
     },
     {
         "id": 3,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "An unjust transition is a transition where you are achieving justice by doing injustice. The purpose of the transition is righteous, but the implementation is harmful. The community forced to deal with the consequences of the transition is not the same body that is causing these consequences. This occurs due to the suppression of weaker communities. The injustice is not limited to people. All people, animals, or nature can be victims of an unjust transition. The injustice can vary from animals losing their shelter; to people losing their jobs or their entire way of life. "
+    },
+    {
+        "id": 4,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "When the windmills are constructed the Saami community is not just about losing their land, but also about losing their identity. When land is lost, they lose the possibility to practice reindeer husbandry which is a part of their culture and is who they are."
+    },
+    {
+        "id": 5,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h2",
+        "content": "Supreme court judgement"
+    },
+    {
+        "id": 6,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "7 June 2010, the Norwegian Water Resources and Energy Directorate (NVE) issued a license to Fosen Vind DA to build four wind farms on the Fosen peninsula in Trøndelag County <a href=”https://www.nrk.no/norge/sametinget-ber-om-uavhengig-gransking-av-fosen-saken-1.16324967”target=”_blank” rel=”noopener noreferrer”>(article about Fosen case)</a>. During the planning phase of the wind farms and in dialogue with the Saami people, Storheia wind farm was not in the plan yet. According to Norwegian law NVE must receive an environmental impact assessment before issuing a license. When NVE received the environmental impact assessment in 2008 Storheia was not in the plan yet, therefore this assessment can be seen as invalid. The assessment should also have brought forward the consequences the reindeer’s husbandry practice will face if the windmills are set up in the nearby areas and especially if set up in Storheia <a href=”https://www.gfbv.ch/wp-content/uploads/sami_fact-sheet_layouten-def.pdf” target=”_blank” rel=”noopener noreferrer”>(article about Saami consent in Fosen project)</a>."
+    },
+    {
+        "id": 7,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The development has changed the character of the area completely and is threatening the reindeer husbandry around the two wind farms Roan and Storheia. The two siidas (group practicing reindeer husbandry) in the Fosen reindeer herding district filed a case against the wind farms. The case concerns the validity of decisions on licensing and expropriation for wind power development on the Fosen peninsula since the construction interferes with the reindeer herder’s rights under Article 27 of the International Covenant on Civil and Political Rights (ICCPR) which states:"
+    },
+    {
+        "id": 8,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "“In those States in which ethnic, religious or linguistic minorities exist, persons belonging to such minorities shall not be denied the right, in community with the other members of their group, to enjoy their own culture, to profess and practice their own religion, or to use their own language <a href=”https://www.domstol.no/globalassets/upload/hret/decisions-in-english-translation/hr-2021-1975-s.pdf” target=”_blank” rel=”noopener noreferrer”>(Supremecourt judgement)</a>.” "
+    },
+    {
+        "id": 9,
+        "isComponent": false,
+        "with": "col60",
+        "tag": "p",
+        "content": "In 2016 the Norwegian state grants Fosen Wind developer a permit to start the construction of the windmills, even though the case is still under consideration. In 2018 UN calls for a construction halt, but this is ignored by the Norwegian state, and in 2020 the operation of the windmills has begun <a href=”Fosen-dom kan ødelegge for forsoningsarbeid – NRK Sápmi - samiske nyheter, kultur og underholdning” target=”_blank” rel=”noopener noreferrer”>(Timeline for the case)</a>.”."
+    },
+    {
+        "id": 10,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "a readier in front of 2 windmills in Fosen",
+        "paramSrc" : "./img/img_1.png",
+        "caption" : "<a href='https://www.bloomberg.com/news/articles/2021-10-11/norway-reindeer-herders-may-force-dismantling-of-151-wind-plants?leadSource=uverify%20wall'>Photographer: Heiko Junge/AFP via Getty Images</a>"
+    },
+    {
+        "id": 11,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "What is the threshold for violation of Article 27 of the ICCPR?"
+    },
+    {
+        "id": 12,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Although Article 27 of the ICCPR contains the term “denied”, interference that does not deny cultural enjoyment may also be a violation to the right to cultural enjoyment."
+    },
+    {
+        "id": 13,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The Human Rights Committee has emphasized that the member of the minority must still be secured a financial dividend, meaning other economic activities in the area can be exercised so that the appellants “continue to benefit from reindeer husbandry”."
+    },
+    {
+        "id": 14,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The court of appeal concluded that the reindeer would avoid the wind power plants in Storheia and Roan. The avoidance will be so significant the areas must be seen as lost grazing land. It would be “speculative” to assume that the reindeer will get used to the wind turbines and later start using the areas for grazing. The turbines in the two wind farms are placed alongside the mountain ridges and thus in an area well suited for late winter grazing.  With a more unstable climate, there is a reason to expect that such areas will become more important forwards. "
+    },
+    {
+        "id": 15,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The court of appeals claims the consequences of the lost grazing areas will lead to reduced reindeer numbers and lower slaughter weights. Without compensatory measures, the development could mean that the number of reindeer might be reduced by 50% according to both sides. The Court of Appeal assumes that in the long term, it will be difficult to maintain reindeer numbers without Storheia <a href=”https://www.domstol.no/globalassets/upload/hret/decisions-in-english-translation/hr-2021-1975-s.pdf” target=”_blank” rel=”noopener noreferrer”>(Supremecourt judgement)</a>. "
+    },
+    {
+        "id": 16,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "Concrete assessment of whether the rights in Article 27 ICCPR have been violated:"
+    },
+    {
+        "id": 17,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "11 October 2021 the judgment was given by the supreme court. The court said that the Southern Sami’s right to practice culture has been violated. The court also believed that utilization of the grazing areas for reindeer is prevented to a significant extent. The judgment doesn’t say anything about demolishing the windmills, but it refuses the state to bring forward a case for expropriation of land and rights that are necessary for these windmills <a href=”https://www.domstol.no/globalassets/upload/hret/decisions-in-english-translation/hr-2021-1975-s.pdf” target=”_blank” rel=”noopener noreferrer”>(Supremecourt judgement)</a>."
+    },
+    {
+        "id": 18,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h2",
+        "content": "The Fosen-case demonstration in Oslo "
+    },
+    {
+        "id": 19,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Thursday the 23rd of February, 500 days after the supreme court judgment in the Fosen case, young adults from NSR Ungdom (youth organization for the Saami political party Norske Samers Riksforbund) and Natur og Ungdom (youth climate and environment activist organization) started a demonstration against the continuous operation of the wind turbines on Storheia and Haraheia by occupying the reception of the Ministry of Petroleum and Energy. They demanded that the wind turbines are to be demolished and that the land is to be given back to the Fosen Saami people <a href=”https://www.nrk.no/sapmi/500-dager-siden-fosen-dommen_-na-aksjonerer-ella-marie-haetta-isaksen-departementet-1.16307645” target=”_blank” rel=”noopener noreferrer” >(source)</a>."
+    },
+    {
+        "id": 20,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Saami protester with flags in Oslo",
+        "paramSrc" : "./img/img_2.jpg",
+        "caption" : "(Emrah Senel / NRK)"
+    },
+    {
+        "id": 21,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Three days later Sunday the 26th of February, a spokesperson for the Saami activists stated that they would remain at Ministry of Petroleum and Energy unless forcefully removed until the decision was made that the wind turbines are to be demolished <a href=”https://www.vg.no/nyheter/i/O8zjaV/aksjonerer-i-departementet-paa-fjerde-dag-vi-kommer-ikke-til-aa-gaa-herfra-frivillig” target=”_blank” rel=”noopener noreferrer” >(source)</a>."
+    },
+    {
+        "id": 22,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "At 03:15, the night of the 27th of February, the activists were forcefully removed from the ministry by the police. The activists then decided to occupy the ministry entrance. Famous Swedish climate activist Greta Thunberg arrived in Oslo to take part in the demonstration. She stated that the Fosen case is a clear example of green colonialism where we pretend to save the planet while violating human rights and ignoring indigenous perspectives at the same time <a href=”https://www.vg.no/nyheter/innenriks/i/GMO6QQ/fjerner-aksjonistene-ved-olje-og-energidepartementet” target=”_blank” rel=”noopener noreferrer” >(source)</a>."
+    },
+    {
+        "id": 23,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Saami protester get carry out by the police",
+        "paramSrc" : "./img/img_3.jpg",
+        "caption" : "(Emrah Senel / NRK)"
+    },
+    {
+        "id": 24,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Terje Aasland (minister of the Petroleum and Energy Ministry) apologized to the Saami people on the 2nd of March on behalf of the government. Later in the day, the prime minister also met with the activists. The activists decided to end their demonstrations the next day with political markings in front of the Storting and the royal palace. The prime minister apologized again on behalf of the government and conceded that the standing wind turbines are a continuous violation of human rights <a href=”https://www.vg.no/nyheter/innenriks/i/JQ785m/statkraft-haaper-vindmoellene-faar-staa-det-er-vi-som-maa-boete-paa-skadene” target=”_blank” rel=”noopener noreferrer” >(source)</a>."
+    },
+    {
+        "id": 25,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "Results of the demonstration"
+    },
+    {
+        "id": 26,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The demonstration by the activists from NSR Ungdom and Natur og Ungdom have brought the Norwegian population’s attention to the case. Attention that has not been given since the supreme court judgment was publicized. It has also put pressure on the government to speed up its investigative process and come to a solution that is acceptable for both the Saami people and the government."
+    },
+    {
+        "id": 27,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Saami protester sitting in front of the Parliament",
+        "paramSrc" : "./img/img_4.jpg",
+        "caption" : "(Biret Inger Mathisdatter Eira / NRK)"
+    },
+    {
+        "id": 28,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h2",
+        "content": "International green transition"
+    },
+    {
+        "id": 29,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "Wind power in Mexico"
+    },
+    {
+        "id": 30,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The Saami people aren’t the only indigenous people to be affected by wind farms. Indigenous people are being affected by the construction of windmills all over the world, such as the indigenous Zapotec people in Mexico."
+    },
+    {
+        "id": 31,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The image [Image 2] shows where Mexico has constructed or plans to construct windmills. When comparing it with [Image 1]. it shows a close similarity between where indigenous people live in Mexico, and where wind farms are both planned and constructed. The southern region of Oaxaca (the southernmost red region in [Image 2] has especially a high density of both indigenous people and windmills. In 2023 there are 29 wind farms in the Oaxaca region of Mexico, all of these are placed either in or neighbouring the municipality Juchitán de Zaragoza as image [Image 5] shows. This region is also home to many Zapotec people as seen in image [Image 2]."
+    },
+    {
+        "id": 32,
         "isComponent" : true,
         "componentType" : "ReactCompareImage",
         "with": "col60",
-        "leftImage" : "",
-        "rightImage" : "",
-        "leftImageAlt": "",
-        "rightImageAlt": ""
+        "leftImage" : "./img/s_1_1.png",
+        "rightImage" : "./img/s_1_2.png",
+        "leftImageAlt": "Map of the Distribution of windmills in Mexico",
+        "rightImageAlt": "Map of the Distribution of indigenous people in Mexico. Windmills are in this arrieres"
     },
     {
-        "id" : 4,
+        "id": 33,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Map of the wind farms in Oaxaca",
+        "paramSrc" : "./img/img_5.png",
+        "caption" : "<a href='https://www.thewindpower.net/country_maps_en_36_mexico.php'>(All wind farms in Oaxaca)</a>"
+    },
+    {
+        "id": 34,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": " The Gunaa Sicarú wind farm and lawsuit"
+    },
+    {
+        "id": 35,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The French energy company EDF (Électricité de France) started the development of a new wind farm project Gunaa Sicarú in the municipality Unión Hidalgo, bordering Juchitán de Zaragoza. The plans were for the wind farm to be constructed on Indigenous land and were accepted by the Mexican government. This would make it difficult for the local Zapotec people to cultivate their culture, but issues then arose over whether the Zapotec people had been thoroughly consulted or not."
+    },
+    {
+        "id": 36,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "A group of 40 Zapotec people",
+        "paramSrc" : "./img/img_6.png",
+        "caption" : "Zapotec people (Creative commons)"
+    },
+    {
+        "id": 37,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "International human rights conventions state that indigenous people have the right to free, prior, and informed consent before projects can be developed on their land. The Zapotec people did not receive correct and complete consultation before the decision on their land was made. Not all documents were translated to the Zapotec language, landowners were granted gifts to sign away their land, and people who were critical of the project were even threatened and, in some cases, attacked <a href=“ECCHR: Wind park in Mexico – ECCHR” target=”_blank” rel=”noopener noreferrer”>(source)</a>. All these points are violations of the law of consultation, and the project was therefore unjustly approved. Alongside the human rights defense organization ProDESQ and ECCHR, the Zapotec started legal proceedings against the Gunaa Sicarú wind farm project. In June 2022 Mexico cancelled the contract with EDF following a court ruling in 2021."
+    },
+    {
+        "id": 38,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "Green transition in Sweden"
+    },
+    {
+        "id": 39,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "One does not need to go further than Norway’s own neighbour Sweden to see how green transitioning is used to severely change the way of life for local inhabitants. The clearest example of this is the planned move of Sweden’s northernmost city Kiruna."
+    },
+    {
+        "id": 40,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Mining has been a large industry around Kiruna for many years, and in January 2023 it was announced that the mining company LKAB has found what is believed to be Europe’s largest deposit of rare earth elements used for creating key green technology components <a href=”https://www.euronews.com/green/2023/01/13/swedish-mining-company-discovers-europes-largest-deposit-of-rare-earth-elements” target=”_blank” rel=”noopener noreferrer”>(source)</a>. As this deposit is very close to Kiruna, it has been decided that the city of Kiruna will be moved, building by building, to a new location so the deposit can be extracted <a href=”https://www.euronews.com/my-europe/2023/01/16/swedish-mining-town-sinking-into-the-ground-to-be-relocated-building-by-building” target=”_blank” rel=”noopener noreferrer”>(source)</a>."
+    },
+    {
+        "id": 41,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "While the around 20.000 inhabitants living in Kiruna seem to be happy with the decision as they are promised city development such as a new town square, the indigenous Saami people are worried <a href=”https://www.euronews.com/my-europe/2023/01/16/swedish-mining-town-sinking-into-the-ground-to-be-relocated-building-by-building” target=”_blank” rel=”noopener noreferrer”>(source)</a>. The lands now occupied by the mine and the city has been used by the Saami people for reindeer herding for many generations. With all the infrastructure and changes to nature, their way of life has been drastically altered. One representant from the Saami community stated that among other things, the mine has caused damage to the lakes so the Saami people can’t even fish there anymore <a href=”https://www.euronews.com/green/2023/02/11/mining-europes-biggest-rare-earth-deposit-could-make-life-impossible-for-sami-communities” target=”_blank” rel=”noopener noreferrer”>(source)</a>."
+    },
+    {
+        "id": 42,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Saami in Kiruna with renders",
+        "paramSrc" : "./img/img_7.jpg",
+        "caption" : "Saami in Kiruna (Digital Museum)"
+    },
+    {
+        "id": 43,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "While the exact consequences for the Saami people in the Kiruna region are hard to precisely predict as of now, the Swedish government has prioritized its own financial gain on the cost of the local inhabitants using the green transition as reasoning for its need. And while the citizens in Kiruna have been promised satisfying compensation for their loss, the Saami people are left feeling snubbed of their historic lands and way of life."
+    },
+    {
+        "id": 44,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "What are the similarities?"
+    },
+    {
+        "id": 45,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Now that you have a better understanding of how the green transition affects indigenous people in several countries and the roles of the governments, it is possible to look at how the Norwegian Saami are treated compared to other indigenous people. We can first look at Norway’s closes neighbour, Sweden."
+    },
+    {
+        "id": 46,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Sweden and Norway seem to be handling their indigenous people similarly when it comes to the green transition. Both nations have decided on developing industries that will benefit the green transition, but by doing this, they have disregarded and muted the concerned voices of the local indigenous people. The Saami at both Fosen and Kiruna fear how they will continue to cultivate their culture and live their way of life, now that more infrastructure and industry is tarnishing their once unpopulated and untouched nature. The biggest difference between these nations is the Norwegian government’s lack of action after the supreme court ruled the Fosen windmills to be a violation of the Saami people’s rights. Disregarding international law. "
+    },
+    {
+        "id": 47,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The Mexico case shows how another nation handles a similar situation to the Fosen case where a court states the windmills to be in violation of indigenous rights. While it took the Mexican government a year after the court hearing to decide on what to do with the windmill license, they did revoke the permit and, in that way, protect their indigenous people. In doing this, the government showed prioritization of indigenous rights before economical gain."
+    },
+    {
+        "id": 48,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content" : "Another big difference between the cases in Norway and Mexico is that due to the court case in Mexico, the construction of the windmills was halted to ensure the resolution of the court case before constructing the windmills. This contrasts with Norway where the windmills were built during a legal battle even though the Norwegian government was asked to stop the construction by the supreme court, therefore causing today’s situation where indigenous people’s rights are violated every day."
+    },
+
+    {
+        "id": 49,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h2",
+        "content": "The rights of nature"
+    },
+    {
+        "id": 50,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "View on the Whanganui River in to a vally",
+        "paramSrc" : "./img/img_10.jpg",
+        "caption" : "(Rumboalla/Getty Images)"
+    },
+    {
+        "id": 51,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "In 2017, New Zealand passed a ground-breaking law granting personhood status to the Whanganui River. The law declares that the river is a living whole, incorporating all its physical and metaphysical elements. For many, its enhanced standing has come to reflect a wider rebirth of Māori culture and a chance to reverse generations of discrimination against Māori and the degradation of the river."
+    },
+    {
+        "id": 52,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Māori on the Whanganui River in a boat",
+        "paramSrc" : "./img/img_11.jpg",
+        "caption" : "(Will Houston/AP)"
+    },
+    {
+        "id": 53,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Since New Zealand gave personhood rights to the Whanganui River, things in New Zealand completely changed. The government made strict effluent emissions standards and legislations to penalize the polluters. Thus, giving the river legal rights has helped protect it from pollution, and given the local Māori peace of mind in relation to industrial interference and pollution of the river. It also showed how the connection of indigenous people is important to environmental protection."
+    },
+    {
+        "id": 54,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "Future projects"
+    },
+    {
+        "id": 55,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "The Saami could argue for the recognition of their traditional grazing lands and holy areas as legal people, similarly to how it is done in New Zealand, which would provide them with stronger legal protection against encroachment by windmills and other industrial activities. This approach could help shift the current paradigm towards a more holistic and respectful view of nature, which aligns with Sami's cultural and spiritual values. An example of where this case can be used is for the holy Saami mountain Rásttigáisá and the windfarm planned in its close area, Davvi."
+    },
+    {
+        "id": 55,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Davvi windfarm is planned on one of the biggest coherent natural areas in Norway and the second largest INON-area (intervention-free natural areas in Norway), except for the reindeer husbandry and some outdoor activities there are no other anthropogenic disturbances in the area <a href=”https://motvind.org/davvi/” target=”_blank” rel=”noopener noreferrer”>(source)</a>."
+    },
+    {
+        "id" : 56,
+        "Picture": true},
+    {
+        "id": 57,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "For the Saami people Rásttigáisá is a holy mountain. They are praying for the spiritual values to be able to save the area from another windfarm <a href=”https://www.nrk.no/norge/xl/det-hellige-fjellet-1.16043121” target=”_blank” rel=”noopener noreferrer”>(source)</a>. In the licence application of Davvi windfarm, it assessed that Rásttigáisá will face huge consequences due to physical and visual influence, which will affect the Saami community. In the consultations between the reindeer herders and the companies the reindeer herders' wishes are often neglected, as the companies want them to accept the compensation package the windmills being built against their wish."
+    },
+    {
+        "id": 58,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "If Norway is to follow the example set by New Zealand, both the mountain Rásttigáisá and the Saami rights would be protected. This would relieve the local Saami population of stress caused by the potential construction of Davvi windfarm and allow them to continue living their way of life as they have done for hundreds of years."
+    },
+    {
+        "id": 59,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h1",
+        "content": "The responses of the polical norway"
+    },
+    {
+        "id": 60,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Questions asked to the political parties (translated from Norwegian):"
+    },
+    {
+        "id": 61,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "<ol><li>How does [PARTY] view Norway’s decision to await further investigation before a decision on the wind farms at Storheia and Haraheia is made, even though the Supreme Court judged the development of the wind power plants as a violation of Article 27 of the UN Convention on Civil and Political Rights?</li><li>Davvi wind farm is proposed to be located close to the Sami’s sacred mountain Rásttigáisá, does the party want to strengthen Sami's rights to prevent the development of wind power plants in areas of practical and/or religious importance to them? If so, what are some measures the party wants to introduce?</li></ol> "
+    },
+    {
+        "id" : 62,
         "isComponent" : true,
         "componentType" : "Overlay",
         "with": "col60",
@@ -33,66 +461,129 @@
             {   "pId" : 0,
                 "imageURL": "./image/party_logo/0.svg",
                 "partyName": "Arbeiderpartiet",
-                "partyResponseHeadline": "a",
-                "partyResponseDate": "b",
-                "partyResponseText": "c"
+                "partyResponseHeadline": "The Red Party",
+                "partyResponseDate": "n.d.",
+                "partyResponseText": "No response",
+                "partyResponseText1":"",
+                "partyResponseText2": "",
+                "partyComment": ""
             },
             {   "pId" : 1,
                 "imageURL":"./image/party_logo/1.svg",
                 "partyName": "Senterpartiet",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Socialist Left Party (SV)",
+                "partyResponseDate": "March 22nd  by olitical advisor for the standing committee on energy and the environment, Bjørn Lasse Eriksen",
+                "partyResponseText1": "SV believes that it has taken too long to get to a conclusion. Some time is needed but 500 days are too many.",
+                "partyResponseText2": "SV believes that clarifying rights and giving rights holders the opportunity to give their informed consent early in the process is incredibly important. They also believe that the situation today where facilities are built, and rights clarified afterwards creates unnecessary conflict and have, with Rødt, tabled this proposal in the Storting.",
+                "partyComment":""
             },
             {   "pId" : 2,
                 "imageURL": "./image/party_logo/2.svg",
                 "partyName": "Høyre",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": "Hi3"
+                "partyResponseHeadline": "The Labour Party (AP) ",
+                "partyResponseDate": "February 12th by minister in the government, and current member of the committee on energy and the environment, Hadia Tajik",
+                "partyResponseText1": "AP believes that the wind farms should not be demolished as The Supreme Court does not state what needs to be done with them. They believe that a compromise where the wind parks remain, and the Sami people are satisfied can be reached.",
+                "partyResponseText2": "AP does not view the Sami as a roadblock where everyone wished to stop Davvi wind farm. It is important for the party to manage bothe the need for more renewable energy and the rights of indigenous people. Tajik states that Davvi wind farm must be assessed concretely by professionals at NVE (The Norwegian Water Resources and Energy Directorate).",
+                "partyComment":""
             },
             {   "pId" : 3,
                 "imageURL": "./image/party_logo/3.svg",
                 "partyName": "Fremskrittspartiet",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Centre Party (SP)",
+                "partyResponseDate": "March 23rd by member of the committee on energy and the environment, Siv Mossleth",
+                "partyResponseText1": "Mossleth stated that they did not agree that Norway is investigating the Fosen case and would therefore not answer the question.",
+                "partyResponseText2": "Mossleth states that NVE (The Norwegian Water Resources and Energy Directorate) is handling the case and the Fosen judgment clearly shows that indigenous rights are very strong. The Centre Party does not want to weaken those rights.",
+                "partyComment":""
             },
             {   "pId" : 4,
                 "imageURL": "./image/party_logo/4.svg",
                 "partyName": "Sosialistisk Venstreparti",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Green Party (MDG)",
+                "partyResponseDate": "February 21st by political advisor, Tore Dyrendahl",
+                "partyResponseText1": "MDG believes that the wind farms on Storheia and Haraheia should be demolished.",
+                "partyResponseText2": "MDG believes that Sami rights must be strengthened. They think that the government should tell NVE (The Norwegian Water Resources and Energy Directorate) that Sami rights must be emphazised more than today. The party has also raised a proposal to reject the plans for Davvi wind farm as it will “affect Sami reindeer herding and areas and involve a major intervention in Norway’s second largest intervention-free area”.",
+                "partyComment":""
             },
             {   "pId" : 5,
                 "imageURL": "./image/party_logo/5.svg",
                 "partyName": "Rødt",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Christian Democrats (KrF)",
+                "partyResponseDate": "February 22nd by former party leader and member of the committee on energy and the environment, Kjell Ingolf Ropstad",
+                "partyResponseText1": "KRF finds it important that the government must follow up on the judgment much more quickly than they have done so far. The party finds the fact that there is still no agreement on any further investigation plan to follow up on the judgment to be worthy of criticism.",
+                "partyResponseText2": "",
+                "partyComment":""
             },
             {   "pId" : 6,
                 "imageURL": "./image/party_logo/6.svg",
                 "partyName": "Venstre",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Liberal Party",
+                "partyResponseDate": "n.d",
+                "partyResponseText1": "",
+                "partyResponseText2": "",
+                "partyComment":""
             },
             {   "pId" : 7,
                 "imageURL": "./image/party_logo/7.svg",
                 "partyName": "Miljøpartiet De Grønne",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Conservative Party",
+                "partyResponseDate": "February 18th by member of the committee on energy and the environment, Bård Ludvig Thorheim",
+                "partyResponseText1": "As Høyre did not have detailed policies on all the questions asked, Thorheim answered more general. Høyre do not want to neither strengthen or weaken Sami reindeer herding or the Sami rights in Norway, and they believe that Sami people and wind farms can coexist. They want the government to arrive at a fair solution to the Fosen case. They also want to look at mechanisms to speed up the dialogue on land encroachment in relation to new power development, industry, mineral extraction etc.",
+                "partyResponseText2": "",
+                "partyComment":""
             },
             {   "pId" : 8,
                 "imageURL": "./image/party_logo/8.svg",
                 "partyName": "Kristelig Folkeparti",
-                "partyResponseHeadline": "",
-                "partyResponseDate": "",
-                "partyResponseText": ""
+                "partyResponseHeadline": "The Progress Party (Frp)",
+                "partyResponseDate": "February 10th by political advisor Hårek Hansen",
+                "partyResponseText1": "“FRP stands behind the decision on further investigation before a decision on the wind farms at Storheia and Haraheia is made.”",
+                "partyResponseText2": "The Progress Party's position on wind farms is that there must be local acceptance for construction. Wind power development must only take place if it is supported by the local population through a binding referendum.",
+                "partyComment": "It should be noted that Hårek Hansen responded on behalf of Frp the 10th of February before the Fosen case demonstrations in Oslo. The party leader, Sylvi Listhaug, spoke about the Sami demonstration in Oslo and the Fosen case on the party’s national board meeting the 11th of March. She then said that the Sami people’s rights are too strong, and that Norway should consider withdrawing from the international conventions that forces these rights arguing that the law should be equal for everyone. While it isn’t impossible that these are the same opinions as the party held when we asked Hårek Hansen, it is clear that the recent demonstrations in Oslo have made the party more outspoken about the fact they might want to withdraw from the international conventions protecting indigenous rights."
             }
         ]
+    },
+    {
+        "id": 63,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "h3",
+        "content": "Response from Saami representative"
+    },
+    {
+        "id": 64,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "We asked a Saami activist, Lemet Máhtte Eira Sara about how the windfarms are affecting Saami people and culture to get a better understanding of the Saami stance. We present these answers now so that you (the reader) may compare it to how the different political parties view the coexistence of Saami people and windfarms."
+    },
+    {
+        "id": 65,
+        "isComponent" : false,
+        "with" : "col60",
+        "tag": "figure",
+        "alt": "Lemet Máhtte Eira Sara",
+        "paramSrc" : "./img/img_9.jpg",
+        "caption" : "Lemet Máhtte Eira Sara (BERIT SOLVEIG GAUP / NRK)"
+    },
+    {
+        "id": 66,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "Lemet Máhtte Eira Sara starts by explaining how the Norwegian government have ruled over Saami people for several hundred years when asked how reindeer husbandry is affected by wind farms. How Norwegian farmers were helped by the government to build farms on Saami lands, how Norwegian traders used liquor to trick Saami people to trade resources cheap, the construction of water dams and how commercialized fishing ruined the Saami people's possibility to continue fishing. He ends by saying that “after all these interventions, and more that I can’t think of, there now is ‘another project’ on top of it all, wind power”. He states that the wind power affects Saami people just as all previous projects have. “Another ‘small’ area where Saami culture does NOT have a place. It is done in the spirit that ‘it saves the Saami because you avoid climate change’”. He also says that paradoxically, nature is taken from the people in order to save the same people and nature."
+    },
+    {
+        "id": 67,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "He explains that the reindeer farming is affected by the wind farms as the reindeers are frightened by the noises and dare not to graze there. It is dangerous for animals and people to move there in the winter due to ice throw. Roads are constructed over pasture, and it takes decades to grow again. The turbines spit out microplastic and fibres which ends up in the pastures. The turbines must be regularly maintained which increases the motor traffic in the area."
+    },
+    {
+        "id": 68,
+        "isComponent" : false,
+        "with": "col60",
+        "tag": "p",
+        "content": "When asked why monetary compensation to the families is not acceptable for the Fosen region, the Saami activist responded with the saying “Only when the last tree is cut and the last river is poisoned, and the last fish is caught, only then will we realize that money cannot be eaten.” The saying describes the perspective of life and the way of understanding the Saami relationship to money. The families can accept the monetary compensation, but these are only temporary. It will not keep alive the knowledge of how to live sustainably and how to live year after year with the same nature. The Saami way of thinking is not linear, but circular. He describes this with the saying “the hare says, I don’t stress about finding food for the winter, I managed last winter.”"
     }
 ]

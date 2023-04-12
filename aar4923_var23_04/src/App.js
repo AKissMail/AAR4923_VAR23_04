@@ -1,7 +1,6 @@
 import './style/app.css';
 import React from "react";
 import Header from "./component/Header";
-import {Footer} from "./component/Footer";
 import {HTML} from "./component/HTML";
 
 
@@ -12,7 +11,6 @@ function App() {
     <div className="App">
       <Header />
         <HTML />
-      <Footer />
     </div>
   );
 }
