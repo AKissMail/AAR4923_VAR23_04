@@ -182,7 +182,6 @@ html {
 
 #imageGrid {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -197,8 +196,9 @@ html {
 #imageGrid img {
     width: 40px;
     max-height: 40px;
-    margin: auto;
-   display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
 
              }
 
