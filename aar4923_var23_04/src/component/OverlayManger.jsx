@@ -18,40 +18,31 @@ export function OverlayManger(props) {
         <div>
             <div id={'imageGrid'} className={'col90'}>
                 <div onClick={()=> {handleContentChange('content0')}} onKeyPress={()=> {handleContentChange('content0')}} tabIndex={0}>
-                    <img src={props.content.container[0].imageURL}  alt={' '}/>
-                    <p>{props.content.container[0].partyName}</p>
+                    <img src={props.content.container[0].imageURL}  alt={props.content.container[0].partyName}  title={props.content.container[0].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content1')}} onKeyPress={()=> {handleContentChange('content1')}} tabIndex={0}>
-                    <img src={props.content.container[1].imageURL}  alt={' '}/>
-                    <p>{props.content.container[1].partyName}</p>
+                    <img src={props.content.container[1].imageURL}   alt={props.content.container[1].partyName}  title={props.content.container[1].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content2')}} onKeyPress={()=> {handleContentChange('content2')}} tabIndex={0}>
-                    <img src={props.content.container[2].imageURL}  alt={' '}/>
-                    <p>{props.content.container[2].partyName}</p>
+                    <img src={props.content.container[2].imageURL}   alt={props.content.container[2].partyName}  title={props.content.container[2].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content3')}} onKeyPress={()=> {handleContentChange('content3')}} tabIndex={0}>
-                    <img src={props.content.container[3].imageURL}  alt={' '}/>
-                    <p>{props.content.container[3].partyName}</p>
+                    <img src={props.content.container[3].imageURL}   alt={props.content.container[3].partyName}  title={props.content.container[3].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content4')}} onKeyPress={()=> {handleContentChange('content4')}} tabIndex={0}>
-                    <img src={props.content.container[4].imageURL}  alt={' '}/>
-                    <p>{props.content.container[4].partyName}</p>
+                    <img src={props.content.container[4].imageURL}   alt={props.content.container[4].partyName}  title={props.content.container[4].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content5')}} onKeyPress={()=> {handleContentChange('content5')}} tabIndex={0}>
-                    <img src={props.content.container[5].imageURL}  alt={' '}/>
-                    <p>{props.content.container[5].partyName}</p>
+                    <img src={props.content.container[5].imageURL}   alt={props.content.container[5].partyName}  title={props.content.container[5].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content6')}} onKeyPress={()=> {handleContentChange('content6')}} tabIndex={0}>
-                    <img src={props.content.container[6].imageURL}  alt={' '}/>
-                    <p>{props.content.container[6].partyName}</p>
+                    <img src={props.content.container[6].imageURL}   alt={props.content.container[6].partyName}  title={props.content.container[6].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content7')}} onKeyPress={()=> {handleContentChange('content7')}} tabIndex={0}>
-                    <img src={props.content.container[7].imageURL}  alt={' '}/>
-                    <p>{props.content.container[7].partyName}</p>
+                    <img src={props.content.container[7].imageURL}   alt={props.content.container[7].partyName}  title={props.content.container[7].partyName}/>
                 </div>
                 <div onClick={()=> {handleContentChange('content8')}} onKeyPress={()=> {handleContentChange('content8')}} tabIndex={0}>
-                    <img src={props.content.container[8].imageURL} alt={' '}  />
-                    <p>{props.content.container[8].partyName}</p>
+                    <img src={props.content.container[8].imageURL}  alt={props.content.container[8].partyName}  title={props.content.container[8].partyName}/>
                 </div>
             </div>
             <Overlay isOpen={isOpen} onClose={toggleOverlay} >
