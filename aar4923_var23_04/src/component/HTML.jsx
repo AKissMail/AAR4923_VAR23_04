@@ -2,6 +2,7 @@ import {Component} from "react";
 import content from "./../data/content.json";
 import ReactCompareImage from "react-compare-image";
 import {OverlayManger} from "./OverlayManger";
+import {CoverImage} from "./CoverImage";
 
 
 function parsMyContent(item) {
@@ -10,7 +11,7 @@ function parsMyContent(item) {
         r =  "<figure id='"+item.id+"'> <img alt ='"+item.alt +"' src='"+ item.paramSrc+ "'>" +(item.caption ==="" ? "": "<figcaption>"+ item.caption +"</figcaption>") + "</figure>" ;
     }
     else if (item.tag === "iframe"){
-        r =  "<iframe frameBorder='0' id="+item.id+" src='"+item.paramSrc+"' title='"+item.parmTitle+"' allow='"+item.paramAllow+"' allowfullscreen></iframe>";
+        r =  "<iframe id="+item.id+" src='"+item.paramSrc+"' title='"+item.parmTitle+"' allow='"+item.paramAllow+"' allowfullscreen></iframe>";
     }
     else {
         r = "<"+item.tag+" id='"+item.id+"'>" +item.content+"</"+item.tag+">";
@@ -24,6 +25,9 @@ function parsMyComponent(item){
     }
     if (item.componentType === "Overlay") {
         return <OverlayManger  content={item} />
+    }
+    if (item.componentType === "CoverImage") {
+        return <CoverImage title={item.title} label={item.label} image={item.imgPath} alt={item.alt}/>
     }
 
     else {

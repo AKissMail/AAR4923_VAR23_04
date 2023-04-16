@@ -1,5 +1,14 @@
 [
     {
+        "id": 0,
+        "isComponent" : true,
+        "imgPath" : "./water-g2989f093f_1920.jpg",
+        "alt": "",
+        "title" : "HI",
+        "label": "123",
+        "componentType": "CoverImage"
+    },
+    {
         "id": 1,
         "with": "col60",
         "tag": "h2",
@@ -459,86 +468,70 @@
         "container" :
         [
             {   "pId" : 0,
-                "imageURL": "./image/party_logo/0.svg",
-                "partyName": "Arbeiderpartiet",
+                "imageURL": "./img/party_logo/5.svg",
+                "partyName": "Rødt",
                 "partyResponseHeadline": "The Red Party",
                 "partyResponseDate": "n.d.",
-                "partyResponseText": "No response",
-                "partyResponseText1":"",
-                "partyResponseText2": "",
-                "partyComment": ""
+                "content": "No response"
             },
             {   "pId" : 1,
-                "imageURL":"./image/party_logo/1.svg",
-                "partyName": "Senterpartiet",
+                "imageURL":"./img/party_logo/4.svg",
+                "partyName": "Sosialistisk Venstreparti",
                 "partyResponseHeadline": "The Socialist Left Party (SV)",
                 "partyResponseDate": "March 22nd  by olitical advisor for the standing committee on energy and the environment, Bjørn Lasse Eriksen",
-                "partyResponseText1": "SV believes that it has taken too long to get to a conclusion. Some time is needed but 500 days are too many.",
-                "partyResponseText2": "SV believes that clarifying rights and giving rights holders the opportunity to give their informed consent early in the process is incredibly important. They also believe that the situation today where facilities are built, and rights clarified afterwards creates unnecessary conflict and have, with Rødt, tabled this proposal in the Storting.",
-                "partyComment":""
+                "content": "<ol><li>SV believes that it has taken too long to get to a conclusion. Some time is needed but 500 days are too many.</li><li>SV believes that clarifying rights and giving rights holders the opportunity to give their informed consent early in the process is incredibly important. They also believe that the situation today where facilities are built, and rights clarified afterwards creates unnecessary conflict and have, with Rødt, tabled this proposal in the Storting.</li></ol>"
             },
             {   "pId" : 2,
-                "imageURL": "./image/party_logo/2.svg",
-                "partyName": "Høyre",
+                "imageURL": "./img/party_logo/0.svg",
+                "partyName": "Arbeiderpartiet",
                 "partyResponseHeadline": "The Labour Party (AP) ",
                 "partyResponseDate": "February 12th by minister in the government, and current member of the committee on energy and the environment, Hadia Tajik",
-                "partyResponseText1": "AP believes that the wind farms should not be demolished as The Supreme Court does not state what needs to be done with them. They believe that a compromise where the wind parks remain, and the Sami people are satisfied can be reached.",
-                "partyResponseText2": "AP does not view the Sami as a roadblock where everyone wished to stop Davvi wind farm. It is important for the party to manage bothe the need for more renewable energy and the rights of indigenous people. Tajik states that Davvi wind farm must be assessed concretely by professionals at NVE (The Norwegian Water Resources and Energy Directorate).",
-                "partyComment":""
+                "content": "<ol><li>AP believes that the wind farms should not be demolished as The Supreme Court does not state what needs to be done with them. They believe that a compromise where the wind parks remain, and the Sami people are satisfied can be reached.</li><li>AP does not view the Sami as a roadblock where everyone wished to stop Davvi wind farm. It is important for the party to manage bothe the need for more renewable energy and the rights of indigenous people. Tajik states that Davvi wind farm must be assessed concretely by professionals at NVE (The Norwegian Water Resources and Energy Directorate).</li></ol>"
             },
             {   "pId" : 3,
-                "imageURL": "./image/party_logo/3.svg",
-                "partyName": "Fremskrittspartiet",
+                "imageURL": "./img/party_logo/1.svg",
+                "partyName": "Senterpartiet ",
                 "partyResponseHeadline": "The Centre Party (SP)",
                 "partyResponseDate": "March 23rd by member of the committee on energy and the environment, Siv Mossleth",
-                "partyResponseText1": "Mossleth stated that they did not agree that Norway is investigating the Fosen case and would therefore not answer the question.",
-                "partyResponseText2": "Mossleth states that NVE (The Norwegian Water Resources and Energy Directorate) is handling the case and the Fosen judgment clearly shows that indigenous rights are very strong. The Centre Party does not want to weaken those rights.",
-                "partyComment":""
+                "content": "<ol><li>Mossleth stated that they did not agree that Norway is investigating the Fosen case and would therefore not answer the question.</li><li>Mossleth states that NVE (The Norwegian Water Resources and Energy Directorate) is handling the case and the Fosen judgment clearly shows that indigenous rights are very strong. The Centre Party does not want to weaken those rights.</li></ol>"
+
             },
             {   "pId" : 4,
-                "imageURL": "./image/party_logo/4.svg",
-                "partyName": "Sosialistisk Venstreparti",
+                "imageURL": "./img/party_logo/7.svg",
+                "partyName": "Miljøpartiet De Grønne",
                 "partyResponseHeadline": "The Green Party (MDG)",
                 "partyResponseDate": "February 21st by political advisor, Tore Dyrendahl",
-                "partyResponseText1": "MDG believes that the wind farms on Storheia and Haraheia should be demolished.",
-                "partyResponseText2": "MDG believes that Sami rights must be strengthened. They think that the government should tell NVE (The Norwegian Water Resources and Energy Directorate) that Sami rights must be emphazised more than today. The party has also raised a proposal to reject the plans for Davvi wind farm as it will “affect Sami reindeer herding and areas and involve a major intervention in Norway’s second largest intervention-free area”.",
-                "partyComment":""
+                "content": "<ol><li>MDG believes that the wind farms on Storheia and Haraheia should be demolished.</li><li>MDG believes that Sami rights must be strengthened. They think that the government should tell NVE (The Norwegian Water Resources and Energy Directorate) that Sami rights must be emphazised more than today. The party has also raised a proposal to reject the plans for Davvi wind farm as it will “affect Sami reindeer herding and areas and involve a major intervention in Norway’s second largest intervention-free area”.</li></ol>"
+
             },
             {   "pId" : 5,
-                "imageURL": "./image/party_logo/5.svg",
-                "partyName": "Rødt",
+                "imageURL": "./img/party_logo/8.svg",
+                "partyName": "Kristelig Folkeparti",
                 "partyResponseHeadline": "The Christian Democrats (KrF)",
-                "partyResponseDate": "February 22nd by former party leader and member of the committee on energy and the environment, Kjell Ingolf Ropstad",
-                "partyResponseText1": "KRF finds it important that the government must follow up on the judgment much more quickly than they have done so far. The party finds the fact that there is still no agreement on any further investigation plan to follow up on the judgment to be worthy of criticism.",
-                "partyResponseText2": "",
-                "partyComment":""
+                "content": "<ol><li>February 22nd by former party leader and member of the committee on energy and the environment, Kjell Ingolf Ropstad</li><li>KRF finds it important that the government must follow up on the judgment much more quickly than they have done so far. The party finds the fact that there is still no agreement on any further investigation plan to follow up on the judgment to be worthy of criticism.</li></ol>"
+
             },
             {   "pId" : 6,
-                "imageURL": "./image/party_logo/6.svg",
+                "imageURL": "./img/party_logo/6.svg",
                 "partyName": "Venstre",
                 "partyResponseHeadline": "The Liberal Party",
                 "partyResponseDate": "n.d",
-                "partyResponseText1": "",
-                "partyResponseText2": "",
-                "partyComment":""
+                "content": "No response"
             },
             {   "pId" : 7,
-                "imageURL": "./image/party_logo/7.svg",
-                "partyName": "Miljøpartiet De Grønne",
+                "imageURL": "./img/party_logo/2.svg",
+                "partyName": "Høyre",
                 "partyResponseHeadline": "The Conservative Party",
                 "partyResponseDate": "February 18th by member of the committee on energy and the environment, Bård Ludvig Thorheim",
-                "partyResponseText1": "As Høyre did not have detailed policies on all the questions asked, Thorheim answered more general. Høyre do not want to neither strengthen or weaken Sami reindeer herding or the Sami rights in Norway, and they believe that Sami people and wind farms can coexist. They want the government to arrive at a fair solution to the Fosen case. They also want to look at mechanisms to speed up the dialogue on land encroachment in relation to new power development, industry, mineral extraction etc.",
-                "partyResponseText2": "",
-                "partyComment":""
+                "content": "<p>As Høyre did not have detailed policies on all the questions asked, Thorheim answered more general. Høyre do not want to neither strengthen or weaken Sami reindeer herding or the Sami rights in Norway, and they believe that Sami people and wind farms can coexist. They want the government to arrive at a fair solution to the Fosen case. They also want to look at mechanisms to speed up the dialogue on land encroachment in relation to new power development, industry, mineral extraction etc.<p>"
+
             },
             {   "pId" : 8,
-                "imageURL": "./image/party_logo/8.svg",
-                "partyName": "Kristelig Folkeparti",
+                "imageURL": "./img/party_logo/3.svg",
+                "partyName": "Fremskrittspartiet",
                 "partyResponseHeadline": "The Progress Party (Frp)",
                 "partyResponseDate": "February 10th by political advisor Hårek Hansen",
-                "partyResponseText1": "“FRP stands behind the decision on further investigation before a decision on the wind farms at Storheia and Haraheia is made.”",
-                "partyResponseText2": "The Progress Party's position on wind farms is that there must be local acceptance for construction. Wind power development must only take place if it is supported by the local population through a binding referendum.",
-                "partyComment": "It should be noted that Hårek Hansen responded on behalf of Frp the 10th of February before the Fosen case demonstrations in Oslo. The party leader, Sylvi Listhaug, spoke about the Sami demonstration in Oslo and the Fosen case on the party’s national board meeting the 11th of March. She then said that the Sami people’s rights are too strong, and that Norway should consider withdrawing from the international conventions that forces these rights arguing that the law should be equal for everyone. While it isn’t impossible that these are the same opinions as the party held when we asked Hårek Hansen, it is clear that the recent demonstrations in Oslo have made the party more outspoken about the fact they might want to withdraw from the international conventions protecting indigenous rights."
+                "content": "<ol><li>“FRP stands behind the decision on further investigation before a decision on the wind farms at Storheia and Haraheia is made.”</li><li>The Progress Party's position on wind farms is that there must be local acceptance for construction. Wind power development must only take place if it is supported by the local population through a binding referendum.\"</li></ol><p>It should be noted that Hårek Hansen responded on behalf of Frp the 10th of February before the Fosen case demonstrations in Oslo. The party leader, Sylvi Listhaug, spoke about the Sami demonstration in Oslo and the Fosen case on the party’s national board meeting the 11th of March. She then said that the Sami people’s rights are too strong, and that Norway should consider withdrawing from the international conventions that forces these rights arguing that the law should be equal for everyone. While it isn’t impossible that these are the same opinions as the party held when we asked Hårek Hansen, it is clear that the recent demonstrations in Oslo have made the party more outspoken about the fact they might want to withdraw from the international conventions protecting indigenous rights.</p>"
             }
         ]
     },
