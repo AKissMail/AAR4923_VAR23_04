@@ -468,6 +468,7 @@
         "container" :
         [
             {   "pId" : 0,
+
                 "imageURL": "./img/party_logo/5.svg",
                 "partyName": "Rødt",
                 "partyResponseHeadline": "The Red Party",
