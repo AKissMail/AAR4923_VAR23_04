@@ -83,23 +83,36 @@ h1 {
     font-size: 2rem;
     color: var(--ColorDarkBG);
 }
+h2{
+    font-family: 'Josefin Sans', serif;
+    font-size: 2rem;
+    color: var(--ColorDarkBG);
+}
+
+h3 {
+    font-family: 'Josefin Sans', serif;
+    font-size: 1.125rem;
+    color: var(--ColorDarkBG);
+}
 h6,.MuiTypography-h6, .css-10hburv-MuiTypography-root {
     font-family: 'Josefin Sans', serif !important;
     color: var(--ColorDarkBG);
+    font-size: 18px!important;
 }
 .MuiBox-root > h6 {
     text-align: center!important;
-    padding-left: 50px ;
+    padding-left: 25px ;
 }
 .MuiButton-textPrimary {
     font-family: 'Josefin Sans', serif !important;
     text-decoration: underline;
 
 }
-p {
+p, li {
     font-family: 'Labrada', serif;
     font-size: 1.5rem;
     color: var(--ColorDarkBG);
+    margin-top: 0!important;
 }
 a {
     color: var(--ColorRed);
@@ -185,6 +198,7 @@ html {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 #imageGrid div {
@@ -260,4 +274,36 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.cover {
+    height:40%;
+    width: 50%;
+}
+.cover > img {
+    position: relative;
+    left: 100%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    margin-top: -75px;
+    max-width: 100vw;
+    width: 100vw;
+}
+.contentCover {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background: rgba(241, 241, 241, 0.93);
+    border-radius: 5px;
+    margin: 30px;
+
+}
+.contentCover > h2,  .contentCover > a{
+    color: var(--ColorDarkBG);
+    margin: 15px;
 }

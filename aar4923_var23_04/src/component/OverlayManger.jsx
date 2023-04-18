@@ -46,15 +46,15 @@ export function OverlayManger(props) {
                 </div>
             </div>
             <Overlay isOpen={isOpen} onClose={toggleOverlay} >
-                {selectedContent === 'content0' && <div><h1>{props.content.container[0].partyResponseHeadline}</h1><h4>{props.content.container[0].partyResponseDate}</h4><p>{props.content.container[0].partyResponseText}</p></div>}
-                {selectedContent === 'content1' && <div><h1>{props.content.container[1].partyResponseHeadline}</h1><h4>{props.content.container[1].partyResponseDate}</h4><p>{props.content.container[1].partyResponseText}</p></div>}
-                {selectedContent === 'content2' && <div><h1>{props.content.container[2].partyResponseHeadline}</h1><h4>{props.content.container[2].partyResponseDate}</h4><p>{props.content.container[2].partyResponseText}</p></div>}
-                {selectedContent === 'content3' && <div><h1>{props.content.container[3].partyResponseHeadline}</h1><h4>{props.content.container[3].partyResponseDate}</h4><p>{props.content.container[3].partyResponseText}</p></div>}
-                {selectedContent === 'content4' && <div><h1>{props.content.container[4].partyResponseHeadline}</h1><h4>{props.content.container[4].partyResponseDate}</h4><p>{props.content.container[4].partyResponseText}</p></div>}
-                {selectedContent === 'content5' && <div><h1>{props.content.container[5].partyResponseHeadline}</h1><h4>{props.content.container[5].partyResponseDate}</h4><p>{props.content.container[5].partyResponseText}</p></div>}
-                {selectedContent === 'content6' && <div><h1>{props.content.container[6].partyResponseHeadline}</h1><h4>{props.content.container[6].partyResponseDate}</h4><p>{props.content.container[6].partyResponseText}</p></div>}
-                {selectedContent === 'content7' && <div><h1>{props.content.container[7].partyResponseHeadline}</h1><h4>{props.content.container[7].partyResponseDate}</h4><p>{props.content.container[7].partyResponseText}</p></div>}
-                {selectedContent === 'content8' && <div><h1>{props.content.container[8].partyResponseHeadline}</h1><h4>{props.content.container[8].partyResponseDate}</h4><p>{props.content.container[8].partyResponseText}</p></div>}
+                {selectedContent === 'content0' && <div><h1>{props.content.container[0].partyResponseHeadline}</h1><h4>{props.content.container[0].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[0].content}}></div></div>}
+                {selectedContent === 'content1' && <div><h1>{props.content.container[1].partyResponseHeadline}</h1><h4>{props.content.container[1].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[1].content}}></div></div>}
+                {selectedContent === 'content2' && <div><h1>{props.content.container[2].partyResponseHeadline}</h1><h4>{props.content.container[2].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[2].content}}></div></div>}
+                {selectedContent === 'content3' && <div><h1>{props.content.container[3].partyResponseHeadline}</h1><h4>{props.content.container[3].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[3].content}}></div></div>}
+                {selectedContent === 'content4' && <div><h1>{props.content.container[4].partyResponseHeadline}</h1><h4>{props.content.container[4].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[4].content}}></div></div>}
+                {selectedContent === 'content5' && <div><h1>{props.content.container[5].partyResponseHeadline}</h1><h4>{props.content.container[5].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[5].content}}></div></div>}
+                {selectedContent === 'content6' && <div><h1>{props.content.container[6].partyResponseHeadline}</h1><h4>{props.content.container[6].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[6].content}}></div></div>}
+                {selectedContent === 'content7' && <div><h1>{props.content.container[7].partyResponseHeadline}</h1><h4>{props.content.container[7].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[7].content}}></div></div>}
+                {selectedContent === 'content8' && <div><h1>{props.content.container[8].partyResponseHeadline}</h1><h4>{props.content.container[8].partyResponseDate}</h4><div dangerouslySetInnerHTML={{__html:props.content.container[8].content}}></div></div>}
             </Overlay>
         </div>
     )

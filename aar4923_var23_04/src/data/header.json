@@ -2,16 +2,26 @@
   "links": [
     {
       "id": 1,
-      "name": "foo",
-      "link": "#1"
+      "name": "Supreme court",
+      "link": "#5"
     },
     {
       "id": 2,
-      "name": "foo2",
-      "link": "#4"
+      "name": "Oslo",
+      "link": "#18"
+    },
+    {
+      "id": 2,
+      "name": "International green transition",
+      "link": "#28"
+    },
+    {
+      "id": 2,
+      "name": "political norway",
+      "link": "#59"
     }
   ],
   "drawerWidth": 240,
-  "title": "A fancy name"
+  "title": "Tears and Turbines"
   }
 
