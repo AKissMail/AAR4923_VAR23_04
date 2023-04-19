@@ -215,7 +215,7 @@ html {
     display: block;
     cursor: pointer;
 
-             }
+}
 
 .overlay__background {
     background-color: rgba(0, 0, 0, 0.5);
@@ -239,13 +239,14 @@ html {
     z-index: 10;
     padding: 30px;
     width: fit-content;
-    height: fit-content;
+    height: 90%;
 }
 
 .overlay__controls {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: var(--ColorDarkBG);
 }
 
 .overlay__close:after {
@@ -258,6 +259,7 @@ html {
     background-color: transparent;
     font-size: 36px;
     cursor: pointer;
+
 }
 .css-10hburv-MuiTypography-root {
 
@@ -292,17 +294,19 @@ code {
 }
 .contentCover {
     position: absolute;
-    top: 50%;
+    top: 21%;
     left: 30%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -70%);
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
     flex-direction: column;
-    background: rgba(241, 241, 241, 0.93);
+    background: rgba(241, 241, 241, 0.51);
     border-radius: 5px;
     margin: 30px;
-    padding: 30px;
+    padding-left: 30px;
+    width: 80%;
+    padding-right: 30px;
 }
 h4 {
     font-family: 'Josefin Sans', serif;
@@ -313,4 +317,12 @@ h4 {
 }
 .politicalComments > p{
     font-size: 1.0rem;
+}
+@media screen and (max-width: 690px) {
+    .overlay__container > div > h1,.overlay__container > div > div > ol > li, .overlay__container > div > p, .overlay__container > div > h4, .overlay__container > div > div > p{
+        font-size: 10px !important;
+    }
+    .politicalComments > p{
+        font-size: 10px !important;
+    }
 }

@@ -2,7 +2,7 @@
     {
         "id": 0,
         "isComponent" : true,
-        "imgPath" : "./img/img_1.png",
+        "imgPath" : "./img/img_0.png",
         "alt": "",
         "title" : "Tears and Turbines",
         "label": "The Emotional Toll of Windmill Construction on Indigenous Communities",
@@ -441,7 +441,7 @@
         "isComponent" : false,
         "with": "col60",
         "tag": "h1",
-        "content": "The responses of the polical norway"
+        "content": "The responses of the political norway"
     },
     {
         "id": 60,
@@ -491,7 +491,7 @@
                 "partyName": "Senterpartiet",
                 "partyResponseHeadline": "The Centre Party (SP)",
                 "partyResponseDate": "March 23rd by member of the committee on energy and the environment, Siv Mossleth",
-                "content": "<ol><li>Mossleth stated that they did not agree that Norway is investigating the Fosen case and would therefore not answer the question.</li><li>Mossleth states that NVE (The Norwegian Water Resources and Energy Directorate) is handling the case and the Fosen judgment clearly shows that indigenous rights are very strong. The Centre Party does not want to weaken those rights.</li></ol> <div class='politicalComments'><p>\"N.B The questions were sent to all the political parties on the 8th of February, but we did not receive a response from Mossleth until the 23rd of March after the demonstrations in Oslo. This might have been the reason as to why Mossleth did not agree with the fact that Norway wanted to investigate the Fosen case before making a conclusion as to what to do with the wind farms.</p></div>"
+                "content": "<ol><li>Mossleth stated that they did not agree that Norway is investigating the Fosen case and would therefore not answer the question.</li><li>Mossleth states that NVE (The Norwegian Water Resources and Energy Directorate) is handling the case and the Fosen judgment clearly shows that indigenous rights are very strong. The Centre Party does not want to weaken those rights.</li></ol> <div class='politicalComments'><p>N.B The questions were sent to all the political parties on the 8th of February, but we did not receive a response from Mossleth until the 23rd of March after the demonstrations in Oslo. This might have been the reason as to why Mossleth did not agree with the fact that Norway wanted to investigate the Fosen case before making a conclusion as to what to do with the wind farms.</p></div>"
 
             },
             {   "pId" : 4,
@@ -589,7 +589,7 @@
         "isComponent": false,
         "with": "col60",
         "tag": "p",
-        "content": "This project aims to introduce the reader to the Saami peoples struggle for protecting their way of life against the construction of windfarms. This is a complicated issue consisting of many different opinions, preferences and needs. By comparing the Saami peoples struggle with how other indigenous people are being treated this project also aims at showing how the Norwegian government is failing the Saami people and how they might protect them in the future."
+        "content": "This project aims to introduce the reader to the Saami people's struggle for protecting their way of life against the construction of windfarms. This is a complicated issue consisting of many different opinions, preferences and needs. By comparing the Saami people's struggle with how other indigenous people are being treated this project also aims at showing how the Norwegian government is failing the Saami people and how they might protect them in the future."
     },
     {
         "id": 71,
