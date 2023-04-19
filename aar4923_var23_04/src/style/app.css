@@ -292,21 +292,24 @@ code {
 }
 .contentCover {
     position: absolute;
-    top: 10%;
-    left: 16%;
+    top: 50%;
+    left: 30%;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+    align-items: flex-start;
+    flex-direction: column;
     background: rgba(241, 241, 241, 0.93);
     border-radius: 5px;
     margin: 30px;
-
+    padding: 30px;
 }
-.contentCover > h2,  .contentCover > a{
+h4 {
+    font-family: 'Josefin Sans', serif;
+}
+.contentCover > h4,  .contentCover > a, .contentCover > p {
     color: var(--ColorDarkBG);
-    margin: 15px;
+    font-size: medium;
 }
 .politicalComments > p{
     font-size: 1.0rem;
