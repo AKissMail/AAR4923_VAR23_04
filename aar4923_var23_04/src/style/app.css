@@ -307,3 +307,6 @@ code {
     color: var(--ColorDarkBG);
     margin: 15px;
 }
+.politicalComments > p{
+    font-size: 1.0rem;
+}
