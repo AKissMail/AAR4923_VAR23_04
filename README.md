@@ -7,4 +7,5 @@ If this is done, you need your terminal to start the application.
 3. run the command `npm start` to start and test the application
 4. run the command `npm run build` to deploy the application on your machine
 
-The web application should look like this picture 
+The web application should look like this picture
+![](aar4923_var23_04/public/img/overview.png)
